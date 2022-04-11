@@ -1,0 +1,43 @@
+﻿@model HeThongBanVeMayBay.Models.HANGBAY
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HANGBAY</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDHangBay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDHangBay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenHangbay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenHangbay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageAviation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImageAviation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

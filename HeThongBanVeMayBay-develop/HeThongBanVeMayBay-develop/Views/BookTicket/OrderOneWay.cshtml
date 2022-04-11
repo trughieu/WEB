@@ -1,0 +1,80 @@
+﻿@using HeThongBanVeMayBay.Models;
+@model IEnumerable<HeThongBanVeMayBay.Models.CHUYENBAY>
+@{
+    Layout = null;
+}
+<h2>Chiều đi</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDChuyenBay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HangBay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDSanBayDi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDSanBayDen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GiaTien)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayBay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GioBay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ThoiGianToiDuKien)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (CHUYENBAY chuyenbay in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => chuyenbay.IDChuyenBay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chuyenbay.HangBay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chuyenbay.IDSanBayDi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chuyenbay.IDSanBayDen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chuyenbay.GiaTien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chuyenbay.NgayBay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chuyenbay.GioBay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => chuyenbay.ThoiGianToiDuKien)
+            </td>
+        </tr>
+    }
+    @if (Convert.ToString(Session["IDChieuVe"]) != "")
+    {
+        <tr style="display: none">
+            <td><a href="/Customer/Index">Tiếp tục</a></td>
+        </tr>
+    }
+    else
+    {
+        <tr>
+            <td><a href="/Customer/Index">Tiếp tục</a></td>
+        </tr>
+    }
+</table>
+@if (Convert.ToString(Session["IDChieuVe"]) != "")
+{
+    Html.RenderAction("OrderTwoWay", "BookTicket", new { Id = Convert.ToInt32(Session["IDChieuVe"]) });
+}

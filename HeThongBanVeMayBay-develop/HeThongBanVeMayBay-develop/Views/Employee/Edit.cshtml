@@ -1,0 +1,215 @@
+﻿@model HeThongBanVeMayBay.Models.NHANVIEN
+@using HeThongBanVeMayBay.Models;
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm("Edit", "Employee", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h4>NHANVIEN</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    @Html.HiddenFor(model => model.ID)
+    <div class="form-group">
+        @using (var context = new QLBANVEMAYBAYEntities())
+        {
+            foreach (var item in context.NHANVIENs.Where(s => s.UserName == User.Identity.Name))
+            {
+                if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "true")
+                {
+                    @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                    </div>
+                }
+                else if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "false")
+                {
+                    @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                    </div>
+                }
+            }
+        }
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Pass, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Pass, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Pass, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TenNV, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.TenNV, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.TenNV, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.GioiTinh, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(m => m.GioiTinh, new SelectList(Enum.GetValues(typeof(Gender))), "Chọn giới tính", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.GioiTinh, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NgaySinh, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NgaySinh, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.NgaySinh, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @using (var context = new QLBANVEMAYBAYEntities())
+        {
+            foreach (var item in context.NHANVIENs.Where(s => s.UserName == User.Identity.Name))
+            {
+                if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "true")
+                {
+                    @Html.LabelFor(model => model.NgayVaoLam, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NgayVaoLam, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NgayVaoLam, "", new { @class = "text-danger" })
+                    </div>
+                }
+                else if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "false")
+                {
+                    @Html.LabelFor(model => model.NgayVaoLam, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NgayVaoLam, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NgayVaoLam, "", new { @class = "text-danger" })
+                    </div>
+                }
+            }
+        }
+    </div>
+    <div class="form-group">
+        @using (var context = new QLBANVEMAYBAYEntities())
+        {
+            foreach (var item in context.NHANVIENs.Where(s => s.UserName == User.Identity.Name))
+            {
+                if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "true")
+                {
+                    @Html.LabelFor(model => model.NgayNghiLam, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NgayNghiLam, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NgayNghiLam, "", new { @class = "text-danger" })
+                    </div>
+                }
+                else if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "false")
+                {
+                    @Html.LabelFor(model => model.NgayNghiLam, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NgayNghiLam, new { htmlAttributes = new { @readonly = "readonly", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NgayNghiLam, "", new { @class = "text-danger" })
+                    </div>
+                }
+            }
+        }
+    </div>
+
+
+    <div class="form-group">
+        @using (var context = new QLBANVEMAYBAYEntities())
+        {
+            foreach (var item in context.NHANVIENs.Where(s => s.UserName == User.Identity.Name))
+            {
+                if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "true")
+                {
+                    @Html.LabelFor(model => model.ChucVu, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownListFor(model => model.ChucVu, (SelectList)ViewBag.listChucVu, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ChucVu, "", new { @class = "text-danger" })
+                    </div>
+                }
+                else if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "false")
+                {
+                    @Html.LabelFor(model => model.ChucVu, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.ChucVu, new { @Value = Model.CHUCVU1.TenChucVu, @readonly = "readonly", @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ChucVu, "", new { @class = "text-danger" })
+                    </div>
+                }
+            }
+        }
+    </div>
+
+    <div class="form-group">
+        @using (var context = new QLBANVEMAYBAYEntities())
+        {
+            foreach (var item in context.NHANVIENs.Where(s => s.UserName == User.Identity.Name))
+            {
+                if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "true")
+                {
+                    @Html.LabelFor(model => model.BoPhan, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownListFor(model => model.BoPhan, (SelectList)ViewBag.listPhongBan, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.BoPhan, "", new { @class = "text-danger" })
+                    </div>
+                }
+                else if (context.CHUCVUs.Where(x => x.IDChucVu.Trim() == item.ChucVu.Trim()).FirstOrDefault().IsAdmin == "false")
+                {
+                    @Html.LabelFor(model => model.BoPhan, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(model => model.BoPhan, new { @Value = Model.PHONGBAN.TenPhongBan, @readonly = "readonly", @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.BoPhan, "", new { @class = "text-danger" })
+                    </div>
+                }
+            }
+        }
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ImageEmp, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            <img src="@Url.Content(Model.ImageEmp)" height="150" width="150" id="previewImg" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ImageEmp, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.ImageEmp, new { htmlAttributes = new { @class = "form-control" } })
+            <input type="file" name="UploadImage" onchange="ChangeImage(this, document.getElementById('previewImg'))" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

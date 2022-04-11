@@ -1,0 +1,379 @@
+﻿@{ Layout = null; }
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aviation Consulting LLC specialises in aircraft maintenance data and regulatory compliance. Find out more here!">
+    <meta name="author" content="Simon Vardy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/369f2651cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/AssetsHome/css/style.css" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/AssetsHome/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/AssetsHome/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/AssetsHome/favicons/favicon-16x16.png">
+    <link rel="manifest" href="~/AssetsHome/favicons/site.webmanifest">
+    <title>Aviation Consultancy LLC</title>
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <header>
+        <div class="container-fluid navbar-container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand" href="index.html">
+                    <img src="~/AssetsHome/images/logo-image.jpg" width="150" height="70" class="d-inline-block align-top" alt="" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item mr-4 active">
+                            <a class="nav-link" href="~/HomePage/Index">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link" href="~/HomePage/Service">Our Services</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link" href="~/HomePage/About">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/HomePage/Contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /Navbar Section -->
+
+    <main>
+        <!-- Callout -->
+        <div class="container-fluid callout-container mb-5">
+            <div class="opaque-overlay">&nbsp;</div>
+            <div id="callout-jumbotron" class="row">
+                <div class="col-12">
+                    <div class="jumbotron text-center">
+                        <!-- Show the logo on tablet displays and bigger only-->
+                        <div class="jumbotron-logo">
+                            <img src="~/AssetsHome/images/logo-image-reverse.png" class="d-inline-block" alt="Aviation COnsultancy LLC Logo Image" loading="lazy">
+                        </div>
+                        <p>
+                            If you are looking for data management expertise<br>
+                            we can deliver the support and assurance you need.
+                        </p>
+                        <button type="button" class="btn btn-lg pill-btn" data-toggle="modal" data-target="#contactUsModal">CONTACT US TODAY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Callout -->
+        <!-- Features Cards -->
+        <div class="container-fluid feature-container">
+            <div class="row">
+                <div class="card-deck mx-auto mb-4">
+                    <!-- Our Services Feature Card -->
+                    <div class="card text-center card-styling-feature mb-3">
+                        <img class="card-img-top" src="~/AssetsHome/images/engine-fanblades.jpg" alt="Jet engine fanblades">
+                        <div class="card-block mb-2">
+                            <h4 class="card-title">Our Services</h4>
+                            <p class="card-text">
+                                We can help you realise your data transformation project; learn about how we can help.
+                            </p>
+                            <a class="btn pill-btn" href="our-services.html" role="button">Read More &#62;</a>
+                        </div>
+                    </div>
+                    <!-- About Us Feature Card -->
+                    <div class="card text-center card-styling-feature mb-3">
+                        <img class="card-img-top" src="~/AssetsHome/images/aircraft-hangar-front.jpg" alt="Aircraft in a hangar">
+                        <div class="card-block mb-2">
+                            <h4 class="card-title">About Us</h4>
+                            <p class="card-text">
+                                Gain access to our team of aviation and data specialists covering all aspects of aircraft data.
+                            </p>
+                            <a class="btn pill-btn" href="about-us.html" role="button">Read More &#62;</a>
+                        </div>
+                    </div>
+                    <!-- Meet The Team Features Card -->
+                    <div class="card text-center card-styling-feature mb-3">
+                        <img class="card-img-top" src="~/AssetsHome/images/aircraft-terminal-dusk.jpg" alt="aircraft taxiing at an airport at dusk">
+                        <div class="card-block mb-2">
+                            <h4 class="card-title">Meet the Team</h4>
+                            <p class="card-text">
+                                Meet our key team members who draw on broad industry experience to support projects of all sizes.
+                            </p>
+                            <a class="btn pill-btn" href="about-us.html#meet_the_team" role="button">Read More &#62;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Features Cards-->
+        <!-- Contact Us Modal -->
+        <div class="modal fade" id="contactUsModal" tabindex="-1" role="dialog" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="~/AssetsHome/images/logo-image.jpg" width="150" height="70" class="d-inline-block align-top" alt="" loading="lazy">
+                        </a>
+                        <h2 class="modal-title" id="contactUsModalLabel"> Contact Us</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <!-- Modal Body Contact Us Form -->
+                    <div class="modal-body">
+                        <form action="confirmation.html">
+                            <!-- Username -->
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Person icon -->
+                                    <span class="input-group-text" id="usernameIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="username" name="username" placeholder="Enter name" aria-describedby="usernameIconPrepend" required>
+                            </div>
+                            <!-- Email Address -->
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Envelope icon -->
+                                    <span class="input-group-text" id="emailIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" aria-describedby="emailIconPrepend" required>
+                            </div>
+                            <!-- Phone Number -->
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Telephone icon -->
+                                    <span class="input-group-text" id="telephoneIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" aria-describedby="telephoneIconPrepend" required>
+                            </div>
+                            <!-- Organisation Name -->
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Building icon -->
+                                    <span class="input-group-text" id="organisationIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-building" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694L1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                                            <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="organisation" name="organisation" placeholder="Enter your organisation" aria-describedby="organisationIconPrepend" required>
+                            </div>
+                            <!-- Message Subject -->
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Tag icon -->
+                                    <span class="input-group-text" id="subjectIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M2 2v4.586l7 7L13.586 9l-7-7H2zM1 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2z" />
+                                            <path fill-rule="evenodd" d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder=" Enter subject" aria-describedby="subjectIconPrepend" required>
+                            </div>
+                            <!-- Message textarea -->
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <!-- Bootstrap Chat right text icon -->
+                                    <span class="input-group-text" id="textareaIconPrepend">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-right-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M2 1h12a1 1 0 0 1 1 1v11.586l-2-2A2 2 0 0 0 11.586 11H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z" />
+                                            <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter message details..." aria-describedby="textareaIconPrepend" required></textarea>
+                            </div>
+                            <!-- Consent checkbox -->
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                <label class="form-check-label" for="exampleCheck1">I consent to Aviation Consultancy LLC collecting my data through this form.</label>
+                            </div>
+                            <!-- Cancel / Send buttons -->
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-success" data-dismiss="#confirmation">Send</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /Contact Us Modal-->
+        <!-- Testimonials Carousel -->
+        <div id="testimonialCarousel" class="carousel slide testimonial-carousel mb-5" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="7000">
+                    <div class="col-sm-6 offset-sm-3">
+                        <p class="text-center">
+                            <i class="fas fa-quote-left"></i>
+                        </p>
+                        <p class="text-center">
+                            "Aviation Consultancy LLC has been an inspirational partner in delivering our revolutionary flight tracking software providing real-time location data of our entire fleet of aircraft."
+                        </p>
+                        <p class="text-center">
+                            <strong><span>Michael Orteig</span></strong>
+                        </p>
+                        <p class="text-center">
+                            <span>President</span><br>
+                            <span>Oceanic Airlines</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="7000">
+                    <div class="col-sm-6 offset-sm-3">
+                        <p class="text-center">
+                            <i class="fas fa-quote-left"></i>
+                        </p>
+                        <p class="text-center">
+                            "The installation of upgraded flight planning software and data migration has been delivered with the integrity, quality and professionalism we have come to expect from Aviation Consultancy LLC."
+                        </p>
+                        <p class="text-center">
+                            <strong><span>Frank J. Lapidus</span></strong>
+                        </p>
+                        <p class="text-center">
+                            <span>Captain</span><br>
+                            <span>Ajira Airways</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="7000">
+                    <div class="col-sm-6 offset-sm-3">
+                        <p class="text-center">
+                            <i class="fas fa-quote-left"></i>
+                        </p>
+                        <p class="text-center">
+                            "Aviation Consultancy LLC. has partnered the DHARMA Initiative in developing groundbreaking research and development in the field of data integrity in high magnetic field environments."
+                        </p>
+                        <p class="text-center">
+                            <strong><span>Dr. Pierre Chang</span></strong>
+                        </p>
+                        <p class="text-center">
+                            <span>Theoretical Astrophysicist</span><br>
+                            <span>DHARMA Initiative</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- /Testimonials Carousel -->
+    </main>
+    <!-- Google Maps -->
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe title="Google maps business location" class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d538.1462749940697!2d106.66674681531053!3d10.776330294162042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3ae5901877%3A0x42c37972de865906!2zODI4IFPGsCBW4bqhbiBI4bqhbmgsIFBoxrDhu51uZyAxMiwgUXXhuq1uIDEwLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1621963180514!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <!-- /Google Maps -->
+    <!-- Footer -->
+    <footer class="container-fluid footer-container text-center">
+        <div id="footer-section" class="row">
+            <div class="col-12 col-lg-4 mx-auto mb-2 social-media icon-bg-sm">
+                <h4>Get in touch</h4>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-4 mb-2 sitemap">
+                <h4>Sitemap</h4>
+                <span><i class="fas fa-sitemap"></i></span>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="index.html"><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="our-services.html"><span>Our Services</span></a>
+                    </li>
+                    <li>
+                        <a href="about-us.html"><span>About Us</span></a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html"><span>Contact Us</span></a>
+                    </li>
+                    <li>
+                        <a href="privacy.html"><span>Privacy Policy</span></a>
+                    </li>
+                    <li>
+                        <a href="terms-and-conditions.html"><span>Terms & Conditions</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-4 contact-address">
+                <h4>Contact</h4>
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <p>
+                    Aviation Consultancy LLC<br>
+                    World Business Centre 3, Newall Road,<br>
+                    London Heathrow Airport,<br>
+                    Middlesex, TW6 2TA<br>
+                    <strong>United Kingdom.</strong>
+                </p>
+                <p><i class="fas fa-phone-alt"></i> +44 (0)208 042 200888</p>
+            </div>
+            <div class="col-12">
+                <p>© Copyright Aviation Consultancy LLC 2020. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- /Scripts -->
+
+</body>
+
+</html>

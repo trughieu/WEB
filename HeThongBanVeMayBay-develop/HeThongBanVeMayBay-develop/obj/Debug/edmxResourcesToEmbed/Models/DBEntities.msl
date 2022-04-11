@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLBANVEMAYBAYModelStoreContainer" CdmEntityContainer="QLBANVEMAYBAYEntities">
+    <EntitySetMapping Name="CHUCVUs">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.CHUCVU">
+        <MappingFragment StoreEntitySet="CHUCVU">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDChucVu" ColumnName="IDChucVu" />
+          <ScalarProperty Name="TenChucVu" ColumnName="TenChucVu" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHUYENBAYs">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.CHUYENBAY">
+        <MappingFragment StoreEntitySet="CHUYENBAY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDChuyenBay" ColumnName="IDChuyenBay" />
+          <ScalarProperty Name="HangBay" ColumnName="HangBay" />
+          <ScalarProperty Name="IDSanBayDi" ColumnName="IDSanBayDi" />
+          <ScalarProperty Name="IDSanBayDen" ColumnName="IDSanBayDen" />
+          <ScalarProperty Name="GiaTien" ColumnName="GiaTien" />
+          <ScalarProperty Name="NgayBay" ColumnName="NgayBay" />
+          <ScalarProperty Name="GioBay" ColumnName="GioBay" />
+          <ScalarProperty Name="ThoiGianToiDuKien" ColumnName="ThoiGianToiDuKien" />
+          <ScalarProperty Name="SoGheHang1" ColumnName="SoGheHang1" />
+          <ScalarProperty Name="SoGheHang2" ColumnName="SoGheHang2" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HANGBAYs">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.HANGBAY">
+        <MappingFragment StoreEntitySet="HANGBAY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDHangBay" ColumnName="IDHangBay" />
+          <ScalarProperty Name="TenHangbay" ColumnName="TenHangbay" />
+          <ScalarProperty Name="ImageAviation" ColumnName="ImageAviation" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HANHKHACHes">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.HANHKHACH">
+        <MappingFragment StoreEntitySet="HANHKHACH">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="TenHanhKhach" ColumnName="TenHanhKhach" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+          <ScalarProperty Name="ChucVu" ColumnName="ChucVu" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MAYBAYs">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.MAYBAY">
+        <MappingFragment StoreEntitySet="MAYBAY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDMayBay" ColumnName="IDMayBay" />
+          <ScalarProperty Name="SoDangBa" ColumnName="SoDangBa" />
+          <ScalarProperty Name="LoaiMayBay" ColumnName="LoaiMayBay" />
+          <ScalarProperty Name="HangBay" ColumnName="HangBay" />
+          <ScalarProperty Name="SucChuaToiDa" ColumnName="SucChuaToiDa" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TenNV" ColumnName="TenNV" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="NgayVaoLam" ColumnName="NgayVaoLam" />
+          <ScalarProperty Name="NgayNghiLam" ColumnName="NgayNghiLam" />
+          <ScalarProperty Name="ChucVu" ColumnName="ChucVu" />
+          <ScalarProperty Name="BoPhan" ColumnName="BoPhan" />
+          <ScalarProperty Name="ImageEmp" ColumnName="ImageEmp" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEUDATCHOes">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.PHIEUDATCHO">
+        <MappingFragment StoreEntitySet="PHIEUDATCHO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDDatCho" ColumnName="IDDatCho" />
+          <ScalarProperty Name="IDChuyenBay" ColumnName="IDChuyenBay" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="GiaTien" ColumnName="GiaTien" />
+          <ScalarProperty Name="LoaiVe" ColumnName="LoaiVe" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHONGBANs">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.PHONGBAN">
+        <MappingFragment StoreEntitySet="PHONGBAN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDPhongBan" ColumnName="IDPhongBan" />
+          <ScalarProperty Name="TenPhongBan" ColumnName="TenPhongBan" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SANBAYs">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.SANBAY">
+        <MappingFragment StoreEntitySet="SANBAY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IATA" ColumnName="IATA" />
+          <ScalarProperty Name="TenSB" ColumnName="TenSB" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VECHUYENBAYs">
+      <EntityTypeMapping TypeName="QLBANVEMAYBAYModel.VECHUYENBAY">
+        <MappingFragment StoreEntitySet="VECHUYENBAY">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDVeChuyenBay" ColumnName="IDVeChuyenBay" />
+          <ScalarProperty Name="IDChuyenBay" ColumnName="IDChuyenBay" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="GiaTien" ColumnName="GiaTien" />
+          <ScalarProperty Name="LoaiVe" ColumnName="LoaiVe" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

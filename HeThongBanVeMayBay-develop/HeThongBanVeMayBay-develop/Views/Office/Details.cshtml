@@ -1,0 +1,28 @@
+﻿@model HeThongBanVeMayBay.Models.CHUCVU
+
+<div>
+    <h4>CHUCVU</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDChucVu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDChucVu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenChucVu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenChucVu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

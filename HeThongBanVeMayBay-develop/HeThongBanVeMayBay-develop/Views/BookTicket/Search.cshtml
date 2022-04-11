@@ -1,0 +1,98 @@
+﻿@*@model IEnumerable<HeThongBanVeMayBay.Models.CHUYENBAY>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IDChuyenBay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HangBay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDSanBayDi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IDSanBayDen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GiaTien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayGio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThoiGianBay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoGheHang1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoGheHang2)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDChuyenBay)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HangBay)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDSanBayDi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IDSanBayDen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GiaTien)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgayGio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ThoiGianBay)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoGheHang1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoGheHang2)
+                </td>
+            </tr>
+        }
+    </table>*@
+@{
+    ViewBag.Title = "PartialView";
+    Layout = null;
+    <h2>@ViewBag.Message</h2>
+    <link type="text/css" rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <div>
+        @{
+            if (Convert.ToString(Session["ReturnDate"]) != "")
+            {
+                using (Html.BeginForm("Accept", "BookTicket", FormMethod.Post))
+                {
+                    Html.RenderAction("RenderOneWay");
+                    Html.RenderAction("RenderTwoWay");
+                    <div>
+                        <input type="submit" value="Tiếp tục" />
+                    </div>
+                    Session.Remove("ReturnDate");
+                }
+            }
+            else
+            {
+                using (Html.BeginForm("Accept", "BookTicket", FormMethod.Post))
+                {
+                    Html.RenderAction("RenderOneWay");
+                    <div>
+                        <input type="submit" value="Tiếp tục" />
+                    </div>
+                }
+            }
+        }
+    </div>
+}

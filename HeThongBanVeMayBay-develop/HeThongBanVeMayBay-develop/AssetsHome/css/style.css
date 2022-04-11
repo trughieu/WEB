@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* -------------------------------------Special Styling */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    /*background-image: linear-gradient(#fff,#777);*/
+}
+
+/* Added to prevent the problems of elements overflowing horizontally on mobile devices */
+.row,
+.container,
+.container-fluid {
+    padding: 0px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* -------------------------------------HEADER SECTION */
+/* -------------------------------------Navbar */
+
+
+/* -------------------------------------MAIN BODY STYLING */
+/* -------------------------------------Homepage Callout Section */
+
+.callout-container {
+/* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
+    height: 100vh;
+    background-color: transparent;
+    background: url('../images/aircraft-hangar-lg.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+/* end of copied Code Institute css code from the Whiskey Drop project */
+    /* font-size: 1.1rem; */
+    min-height: 200px;
+    padding: 20px;
+}
+
+/* Opaque Overlay css code copied from the Code Institute Whiskey Drop project*/ 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+/* end of copied Code Institute css code from the Whiskey Drop project */
+
+/* -------------------------------------Hero Image Containers */
+
+.our-services-hero-container {
+    /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
+    height:700px;
+    width: 100%;
+    background: url('../images/aircraft-engine.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* end of copied Code Institute css code from the Whiskey Drop project */
+}
+
+.about-us-hero-container {
+    /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
+    height:700px;
+    width: 100%;
+    background: url('../images/aircraft-hangar-front.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* end of copied Code Institute css code from the Whiskey Drop project */
+}
+
+.contact-us-hero-container {
+    /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
+    height:700px;
+    width: 100%;
+    background: url('../images/aircraft-taxi-night.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* end of copied Code Institute css code from the Whiskey Drop project */
+}
+
+.confirmation-hero-container {
+    /* Background image css code copied and adapted from the Code Institute Whiskey Drop project*/
+    height: 100vh;
+    background-color: transparent;
+    background: url('../images/aircraft-cabin.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* end of copied Code Institute css code from the Whiskey Drop project */
+    font-size: 1.1rem;
+    min-height: 200px;
+    padding: 20px;
+}
+
+/* -------------------------------------Jumbotron */
+
+.jumbotron {
+    background: none;
+    animation-name: text-fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+.jumbotron h1 {
+    font-family: 'Oswald', serif;
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 4px #000000;
+    margin: 20px 0;
+}
+
+.jumbotron p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 0 4px #000000;
+    margin: 20px 0;
+}
+
+.jumbotron-logo img {
+    max-width: 100%;
+    width: 575px;
+    height: auto;
+}
+
+/* -------------------------------------Animations */
+
+@keyframes text-fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+/* -------------------------------------Buttons */
+
+.pill-btn {
+    color: #444;
+    font-weight: bold;
+    background-color: lightBlue;
+    border: 1px solid lightBlue;
+    border-radius: 25px;
+}
+
+.pill-btn:hover {
+    color: lightBlue;
+    background-color: #444;
+    border: 1px solid #444;
+}
+
+/* -------------------------------------Card Deck */
+
+.feature-container-team {
+    background-color: white;
+}
+
+.feature-container-team h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.8rem;
+    padding-bottom: 20px;
+}
+
+.card {
+    border-bottom: 5px solid #777;
+}
+
+
+.card-deck {
+    justify-content: center;
+}
+
+.card-styling,
+.card-styling-feature {
+    max-width: 30rem;
+    min-width: 15rem;
+}
+
+.card-styling-feature:hover {
+    border-bottom: 5px solid lightBlue;
+}
+
+.card-img-top {
+    height: 320px;
+}
+
+.card-styling-team {
+    max-width: 15rem;
+    min-width: 15rem;
+}
+
+.card-styling-team a i {
+    color: #777;
+    font-size: 1.6rem;
+}
+
+.card-styling-team a i:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+.card-styling-team h4,
+.card-styling-feature h4,
+.card-styling h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.card-styling-team p,
+.card-styling-feature p,
+.card-styling p {
+    padding: 0 10px 10px 10px;
+}
+
+
+/* -------------------------------------Contact Us Modal */
+
+/* Fix for the callout image and text jumping when the modal popup appears - code borrowed from */
+/* https://github.com/twbs/bootstrap/issues/15229 */
+/* Known common issue with Bootstrap Modals */
+.modal-open {
+    overflow: auto;
+    padding-right: 0 !important;
+}
+/* /Fix end */
+
+.modal-header {
+    align-items: center;
+}
+
+.form-group label i {
+    font-size: 1.5rem;
+}
+
+
+/* -------------------------------------Contact Us Page */
+/* -------------------------------------Contact Us cards */
+
+.icon-bg>span>i {
+    font-size: 2rem;
+    height: 70px;
+    width: 70px;
+    padding: 20px 0;
+    border-radius: 50%;
+    background-color: lightBlue;
+    text-align: center;
+    margin: auto;
+}
+
+.contact-us-card h3 {
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+}
+
+.contact-us-card p a {
+    color: #444;
+}
+
+.contact-us-card p a:hover {
+    color: #000;
+}
+
+.small-email {
+    display: none;
+}
+
+/* -------------------------------------Google Maps iframe */
+
+.embed-responsive-16by9 {
+  max-height: 600px;
+}
+
+/* -------------------------------------Testimonials Carousel */
+
+.testimonial-carousel {
+/* Background image css code copied from the Code Institute Whiskey Drop project*/
+    background-color: transparent;
+    background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/* /end of copied Code Institute css code from te Whiskey Drop project */
+    font-size: 1.1rem;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.testimonial-carousel p {
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 3px #000000;
+}
+
+.testimonial-carousel i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.testimonial-carousel p span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* -------------------------------------Privacy + Terms and Conditions Page */
+
+.privacy-header h2, 
+.terms-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #444;
+}
+
+/* -------------------------------------Block Dividers */
+
+.block-divider {
+  width: 75px;
+  height: 5px;
+  border: 0;
+  background-color: #444;
+}
+
+.block-divider-sm {
+    width: 40px;
+    height: 3px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider-sm-white {
+    width: 40px;
+    height: 3px;
+    border: 0;
+    background-color: #fff;
+}
+
+/* -------------------------------------Accordion cards */
+
+.box-shadow {
+    box-shadow: 0 2px 3px rgba(0,0,0,0.13), 0 4px 7px rgba(0,0,0,0.26);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-header:hover {
+    background-color: lightBlue;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #444;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    font-weight: 400;
+    color: #444;
+    text-decoration: underline #444;
+}
+
+/* -------------------------------------FOOTER SECTION */
+/* -------------------------------------Social Media Links */
+
+.footer-container h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.social-media ul li {
+  font-size: 1.6rem;
+  padding: 2%;
+}
+
+.social-media ul li a {
+    color: #444;
+}
+
+.social-media ul li a:hover {
+    color: lightBlue;
+}
+
+.icon-bg-sm ul li a i {
+  height: 50px;
+  width: 50px;
+  padding: 12px 0;
+  border-radius: 50%;
+  background-color: lightBlue;
+  text-align: center;
+  margin: auto;
+}
+
+.icon-bg-sm ul li a i:hover {
+    background-color: #444;
+}
+
+.sitemap span i,
+.contact-address span i {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.sitemap ul li a {
+    color: #444;
+}
+
+.sitemap ul li a:hover {
+    color: #111 ;
+}
+
+/* -------------------------------------Media Queries */
+/* -------------------------------------Responsive Design - TABLET */
+
+@media screen and (max-width: 943px) {
+    .jumbotron h1 {
+        font-size: 5rem;
+    }
+    .jumbotron p {
+        font-size: 1.4rem;
+    }
+}
+
+/* -------------------------------------Responsive Design - MOBILE */
+
+@media screen and (max-width: 430px) {
+    .jumbotron h1 {
+        font-size: 3rem;
+    }
+    .jumbotron p {
+        font-size: 1.2rem;
+    }
+}
+
+/* -------------------------------------Responsive Design - Apple Products Fix */
+/* Apple devices do not support background-attachment: fixed; which has caused the background images to display incorrectly*/
+/* These media queries are a workaround to try to fix issue #60 by adding smaller image versions and setting the */
+/* background-attachment: scroll; for all devices smaller than 1366px device width which covers most iPhones and iPads */
+/* in portrait and landscape modes */
+
+
+@media screen and (max-width: 1366px) {
+    .callout-container {
+        background: url('../images/aircraft-hangar-960w.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
+    .testimonial-carousel {
+        background: url('../images/above-the-clouds.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
+    .our-services-hero-container {
+        background: url('../images/aircraft-engine-960w.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
+    .about-us-hero-container {
+        background: url('../images/aircraft-hangar-front-web-960w.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
+    .contact-us-hero-container {
+        background: url('../images/aircraft-taxi-night-960w.jpg') no-repeat center scroll;
+        background-size: cover;
+    }
+}
+
+/* -------------------------------------Responsive Design - Contact Us Support email */
+/* long email addresses wrap to the next line as the page width reduces -*/
+/* these media queries attempt to improve the design by replacing them with smaller email links */
+/* until the bootstrap grid resizes to a single column */
+
+@media screen and (max-width: 1192px) and (min-width: 767px) {
+    .large-email {
+        display: none;
+    }
+    .small-email {
+        display: inline-block
+    }
+}
+
+/* return the email address to normal once the page reaches col-12 grid layout on mobile displays */
+@media screen and (max-width: 767px) {
+    .small-email {
+        display: none;
+    }
+}

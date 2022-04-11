@@ -1,0 +1,344 @@
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\HeThongBanVeMayBay.dll.config
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\HeThongBanVeMayBay.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\HeThongBanVeMayBay.pdb
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\csc.exe
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\csc.exe.config
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\csc.rsp
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\csi.exe
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\csi.exe.config
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\csi.rsp
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.AppContext.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Collections.Immutable.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Console.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Globalization.Calendars.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.IO.Compression.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.IO.FileSystem.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Net.Http.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Net.Sockets.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Reflection.Metadata.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.ValueTuple.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Xml.XPath.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\vbc.exe
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\vbc.exe.config
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\vbc.rsp
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\VBCSCompiler.exe
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\roslyn\VBCSCompiler.exe.config
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\Antlr3.Runtime.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\EntityFramework.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\EntityFramework.SqlServer.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\Microsoft.Web.Infrastructure.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\Newtonsoft.Json.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.Helpers.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.Mvc.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.Optimization.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.Razor.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.WebPages.Deployment.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.WebPages.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.WebPages.Razor.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\WebGrease.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\EntityFramework.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\EntityFramework.SqlServer.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.Helpers.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.Mvc.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.Optimization.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.Razor.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.WebPages.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.WebPages.Deployment.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\System.Web.WebPages.Razor.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\Newtonsoft.Json.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\Antlr3.Runtime.pdb
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.csprojAssemblyReference.cache
+D:\Do an\LTW NC\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.csproj.CoreCompileInputs.cache
+D:\Do an\LTW NC\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.csproj.CopyComplete
+D:\Do an\LTW NC\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.pdb
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\HeThongBanVeMayBay.dll.config
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\HeThongBanVeMayBay.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\HeThongBanVeMayBay.pdb
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csc.exe
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csc.exe.config
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csc.rsp
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csi.exe
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csi.exe.config
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csi.rsp
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.AppContext.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Collections.Immutable.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Console.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Globalization.Calendars.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.IO.Compression.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.IO.FileSystem.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Net.Http.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Net.Sockets.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Reflection.Metadata.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.ValueTuple.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Xml.XPath.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\vbc.exe
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\vbc.exe.config
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\vbc.rsp
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\VBCSCompiler.exe
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\VBCSCompiler.exe.config
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Antlr3.Runtime.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\EntityFramework.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\EntityFramework.SqlServer.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Microsoft.Web.Infrastructure.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Newtonsoft.Json.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Helpers.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Mvc.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Optimization.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Razor.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.Deployment.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.Razor.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\WebGrease.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\EntityFramework.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\EntityFramework.SqlServer.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Helpers.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Mvc.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Optimization.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Razor.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.Deployment.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.Razor.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Newtonsoft.Json.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Antlr3.Runtime.pdb
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.csprojAssemblyReference.cache
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.csproj.CoreCompileInputs.cache
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.csproj.CopyComplete
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.dll
+D:\Downloads\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.pdb
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\HeThongBanVeMayBay.dll.config
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\HeThongBanVeMayBay.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\HeThongBanVeMayBay.pdb
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csc.exe
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csc.exe.config
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csc.rsp
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csi.exe
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csi.exe.config
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\csi.rsp
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.AppContext.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Collections.Immutable.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Console.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Globalization.Calendars.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.IO.Compression.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.IO.FileSystem.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Net.Http.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Net.Sockets.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Reflection.Metadata.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.ValueTuple.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Xml.XPath.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\vbc.exe
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\vbc.exe.config
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\vbc.rsp
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\VBCSCompiler.exe
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\roslyn\VBCSCompiler.exe.config
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Antlr3.Runtime.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\EntityFramework.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\EntityFramework.SqlServer.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Microsoft.Web.Infrastructure.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Newtonsoft.Json.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Helpers.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Mvc.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Optimization.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Razor.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.Deployment.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.Razor.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\WebGrease.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\EntityFramework.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\EntityFramework.SqlServer.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Helpers.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Mvc.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Optimization.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.Razor.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.Deployment.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\System.Web.WebPages.Razor.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Newtonsoft.Json.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Antlr3.Runtime.pdb
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.csproj.CoreCompileInputs.cache
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.csproj.CopyComplete
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.pdb
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\PagedList.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\PagedList.Mvc.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\PagedList.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\bin\PagedList.Mvc.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay (2)\HeThongBanVeMayBay\obj\Debug\HeThongBanVeMayBay.csprojAssemblyReference.cache
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\PagedList.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\PagedList.Mvc.dll
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\PagedList.xml
+D:\Do an\LTW NC\HeThongBanVeMayBay\bin\PagedList.Mvc.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\HeThongBanVeMayBay.dll.config
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\HeThongBanVeMayBay.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\HeThongBanVeMayBay.pdb
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\csc.exe
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\csc.exe.config
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\csc.rsp
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\csi.exe
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\csi.exe.config
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\csi.rsp
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.AppContext.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Console.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.IO.Compression.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Net.Http.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Net.Sockets.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.ValueTuple.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Xml.XPath.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\vbc.exe
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\vbc.exe.config
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\vbc.rsp
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\VBCSCompiler.exe
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\Antlr3.Runtime.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\EntityFramework.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\EntityFramework.SqlServer.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\Newtonsoft.Json.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\PagedList.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\PagedList.Mvc.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.Helpers.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.Mvc.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.Optimization.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.Razor.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.WebPages.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.WebPages.Razor.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\WebGrease.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\EntityFramework.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\EntityFramework.SqlServer.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\PagedList.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\PagedList.Mvc.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.Helpers.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.Mvc.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.Optimization.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.Razor.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.WebPages.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\System.Web.WebPages.Razor.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\Newtonsoft.Json.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\Antlr3.Runtime.pdb
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\obj\Debug\HeThongBanVeMayBay.csproj.AssemblyReference.cache
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\obj\Debug\HeThongBanVeMayBay.csproj.CoreCompileInputs.cache
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\obj\Debug\HeThongBanVeMayBay.csproj.CopyComplete
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\obj\Debug\HeThongBanVeMayBay.dll
+C:\Users\lequo\Desktop\HeThongBanVeMayBay-develop\HeThongBanVeMayBay-develop\obj\Debug\HeThongBanVeMayBay.pdb

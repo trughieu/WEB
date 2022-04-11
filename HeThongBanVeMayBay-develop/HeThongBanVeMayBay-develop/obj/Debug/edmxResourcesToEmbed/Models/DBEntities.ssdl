@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLBANVEMAYBAYModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CHUCVU">
+    <Key>
+      <PropertyRef Name="IDChucVu" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDChucVu" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenChucVu" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IsAdmin" Type="varchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CHUYENBAY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDChuyenBay" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="HangBay" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="IDSanBayDi" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="IDSanBayDen" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="GiaTien" Type="int" Nullable="false" />
+    <Property Name="NgayBay" Type="datetime" Nullable="false" />
+    <Property Name="GioBay" Type="time" Precision="7" Nullable="false" />
+    <Property Name="ThoiGianToiDuKien" Type="time" Precision="7" Nullable="false" />
+    <Property Name="SoGheHang1" Type="int" Nullable="false" />
+    <Property Name="SoGheHang2" Type="int" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="HANGBAY">
+    <Key>
+      <PropertyRef Name="IDHangBay" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDHangBay" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenHangbay" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ImageAviation" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="HANHKHACH">
+    <Key>
+      <PropertyRef Name="CMND" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar(max)" />
+    <Property Name="Pass" Type="varchar(max)" />
+    <Property Name="Email" Type="varchar(max)" Nullable="false" />
+    <Property Name="CMND" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="TenHanhKhach" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NgaySinh" Type="date" Nullable="false" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="DienThoai" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ChucVu" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="MAYBAY">
+    <Key>
+      <PropertyRef Name="IDMayBay" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDMayBay" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="SoDangBa" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="LoaiMayBay" Type="varchar(max)" Nullable="false" />
+    <Property Name="HangBay" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="SucChuaToiDa" Type="int" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Pass" Type="varchar(max)" Nullable="false" />
+    <Property Name="Email" Type="varchar(max)" Nullable="false" />
+    <Property Name="TenNV" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="NgaySinh" Type="datetime" Nullable="false" />
+    <Property Name="NgayVaoLam" Type="datetime" Nullable="false" />
+    <Property Name="NgayNghiLam" Type="datetime" />
+    <Property Name="ChucVu" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="BoPhan" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="ImageEmp" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="PHIEUDATCHO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDDatCho" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="IDChuyenBay" Type="int" Nullable="false" />
+    <Property Name="CMND" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="GiaTien" Type="int" Nullable="false" />
+    <Property Name="LoaiVe" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="PHONGBAN">
+    <Key>
+      <PropertyRef Name="IDPhongBan" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDPhongBan" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenPhongBan" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="SANBAY">
+    <Key>
+      <PropertyRef Name="IATA" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IATA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TenSB" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="VECHUYENBAY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDVeChuyenBay" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="IDChuyenBay" Type="int" Nullable="false" />
+    <Property Name="CMND" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="GiaTien" Type="int" Nullable="false" />
+    <Property Name="LoaiVe" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK__CHUYENBAY__HangB__300424B4">
+    <End Role="HANGBAY" Type="Self.HANGBAY" Multiplicity="1" />
+    <End Role="CHUYENBAY" Type="Self.CHUYENBAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HANGBAY">
+        <PropertyRef Name="IDHangBay" />
+      </Principal>
+      <Dependent Role="CHUYENBAY">
+        <PropertyRef Name="HangBay" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHUYENBAY__IDChu__2F10007B">
+    <End Role="MAYBAY" Type="Self.MAYBAY" Multiplicity="1" />
+    <End Role="CHUYENBAY" Type="Self.CHUYENBAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MAYBAY">
+        <PropertyRef Name="IDMayBay" />
+      </Principal>
+      <Dependent Role="CHUYENBAY">
+        <PropertyRef Name="IDChuyenBay" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHUYENBAY__IDSan__2D27B809">
+    <End Role="SANBAY" Type="Self.SANBAY" Multiplicity="1" />
+    <End Role="CHUYENBAY" Type="Self.CHUYENBAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SANBAY">
+        <PropertyRef Name="IATA" />
+      </Principal>
+      <Dependent Role="CHUYENBAY">
+        <PropertyRef Name="IDSanBayDi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CHUYENBAY__IDSan__2E1BDC42">
+    <End Role="SANBAY" Type="Self.SANBAY" Multiplicity="1" />
+    <End Role="CHUYENBAY" Type="Self.CHUYENBAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SANBAY">
+        <PropertyRef Name="IATA" />
+      </Principal>
+      <Dependent Role="CHUYENBAY">
+        <PropertyRef Name="IDSanBayDen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HANHKHACH__ChucV__32E0915F">
+    <End Role="CHUCVU" Type="Self.CHUCVU" Multiplicity="1" />
+    <End Role="HANHKHACH" Type="Self.HANHKHACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CHUCVU">
+        <PropertyRef Name="IDChucVu" />
+      </Principal>
+      <Dependent Role="HANHKHACH">
+        <PropertyRef Name="ChucVu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MAYBAY__HangBay__2A4B4B5E">
+    <End Role="HANGBAY" Type="Self.HANGBAY" Multiplicity="1" />
+    <End Role="MAYBAY" Type="Self.MAYBAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HANGBAY">
+        <PropertyRef Name="IDHangBay" />
+      </Principal>
+      <Dependent Role="MAYBAY">
+        <PropertyRef Name="HangBay" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__NHANVIEN__BoPhan__3F466844">
+    <End Role="PHONGBAN" Type="Self.PHONGBAN" Multiplicity="1" />
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHONGBAN">
+        <PropertyRef Name="IDPhongBan" />
+      </Principal>
+      <Dependent Role="NHANVIEN">
+        <PropertyRef Name="BoPhan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__NHANVIEN__ChucVu__403A8C7D">
+    <End Role="CHUCVU" Type="Self.CHUCVU" Multiplicity="1" />
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CHUCVU">
+        <PropertyRef Name="IDChucVu" />
+      </Principal>
+      <Dependent Role="NHANVIEN">
+        <PropertyRef Name="ChucVu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PHIEUDATC__IDChu__398D8EEE">
+    <End Role="CHUYENBAY" Type="Self.CHUYENBAY" Multiplicity="1" />
+    <End Role="PHIEUDATCHO" Type="Self.PHIEUDATCHO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CHUYENBAY">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PHIEUDATCHO">
+        <PropertyRef Name="IDChuyenBay" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PHIEUDATCH__CMND__3A81B327">
+    <End Role="HANHKHACH" Type="Self.HANHKHACH" Multiplicity="1" />
+    <End Role="PHIEUDATCHO" Type="Self.PHIEUDATCHO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HANHKHACH">
+        <PropertyRef Name="CMND" />
+      </Principal>
+      <Dependent Role="PHIEUDATCHO">
+        <PropertyRef Name="CMND" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VECHUYENB__IDChu__35BCFE0A">
+    <End Role="CHUYENBAY" Type="Self.CHUYENBAY" Multiplicity="1" />
+    <End Role="VECHUYENBAY" Type="Self.VECHUYENBAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CHUYENBAY">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="VECHUYENBAY">
+        <PropertyRef Name="IDChuyenBay" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__VECHUYENBA__CMND__36B12243">
+    <End Role="HANHKHACH" Type="Self.HANHKHACH" Multiplicity="1" />
+    <End Role="VECHUYENBAY" Type="Self.VECHUYENBAY" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HANHKHACH">
+        <PropertyRef Name="CMND" />
+      </Principal>
+      <Dependent Role="VECHUYENBAY">
+        <PropertyRef Name="CMND" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLBANVEMAYBAYModelStoreContainer">
+    <EntitySet Name="CHUCVU" EntityType="Self.CHUCVU" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CHUYENBAY" EntityType="Self.CHUYENBAY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HANGBAY" EntityType="Self.HANGBAY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HANHKHACH" EntityType="Self.HANHKHACH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MAYBAY" EntityType="Self.MAYBAY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NHANVIEN" EntityType="Self.NHANVIEN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PHIEUDATCHO" EntityType="Self.PHIEUDATCHO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PHONGBAN" EntityType="Self.PHONGBAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SANBAY" EntityType="Self.SANBAY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VECHUYENBAY" EntityType="Self.VECHUYENBAY" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__CHUYENBAY__HangB__300424B4" Association="Self.FK__CHUYENBAY__HangB__300424B4">
+      <End Role="HANGBAY" EntitySet="HANGBAY" />
+      <End Role="CHUYENBAY" EntitySet="CHUYENBAY" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHUYENBAY__IDChu__2F10007B" Association="Self.FK__CHUYENBAY__IDChu__2F10007B">
+      <End Role="MAYBAY" EntitySet="MAYBAY" />
+      <End Role="CHUYENBAY" EntitySet="CHUYENBAY" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHUYENBAY__IDSan__2D27B809" Association="Self.FK__CHUYENBAY__IDSan__2D27B809">
+      <End Role="SANBAY" EntitySet="SANBAY" />
+      <End Role="CHUYENBAY" EntitySet="CHUYENBAY" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CHUYENBAY__IDSan__2E1BDC42" Association="Self.FK__CHUYENBAY__IDSan__2E1BDC42">
+      <End Role="SANBAY" EntitySet="SANBAY" />
+      <End Role="CHUYENBAY" EntitySet="CHUYENBAY" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HANHKHACH__ChucV__32E0915F" Association="Self.FK__HANHKHACH__ChucV__32E0915F">
+      <End Role="CHUCVU" EntitySet="CHUCVU" />
+      <End Role="HANHKHACH" EntitySet="HANHKHACH" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MAYBAY__HangBay__2A4B4B5E" Association="Self.FK__MAYBAY__HangBay__2A4B4B5E">
+      <End Role="HANGBAY" EntitySet="HANGBAY" />
+      <End Role="MAYBAY" EntitySet="MAYBAY" />
+    </AssociationSet>
+    <AssociationSet Name="FK__NHANVIEN__BoPhan__3F466844" Association="Self.FK__NHANVIEN__BoPhan__3F466844">
+      <End Role="PHONGBAN" EntitySet="PHONGBAN" />
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+    </AssociationSet>
+    <AssociationSet Name="FK__NHANVIEN__ChucVu__403A8C7D" Association="Self.FK__NHANVIEN__ChucVu__403A8C7D">
+      <End Role="CHUCVU" EntitySet="CHUCVU" />
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PHIEUDATC__IDChu__398D8EEE" Association="Self.FK__PHIEUDATC__IDChu__398D8EEE">
+      <End Role="CHUYENBAY" EntitySet="CHUYENBAY" />
+      <End Role="PHIEUDATCHO" EntitySet="PHIEUDATCHO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PHIEUDATCH__CMND__3A81B327" Association="Self.FK__PHIEUDATCH__CMND__3A81B327">
+      <End Role="HANHKHACH" EntitySet="HANHKHACH" />
+      <End Role="PHIEUDATCHO" EntitySet="PHIEUDATCHO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VECHUYENB__IDChu__35BCFE0A" Association="Self.FK__VECHUYENB__IDChu__35BCFE0A">
+      <End Role="CHUYENBAY" EntitySet="CHUYENBAY" />
+      <End Role="VECHUYENBAY" EntitySet="VECHUYENBAY" />
+    </AssociationSet>
+    <AssociationSet Name="FK__VECHUYENBA__CMND__36B12243" Association="Self.FK__VECHUYENBA__CMND__36B12243">
+      <End Role="HANHKHACH" EntitySet="HANHKHACH" />
+      <End Role="VECHUYENBAY" EntitySet="VECHUYENBAY" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

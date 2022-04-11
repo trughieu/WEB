@@ -1,0 +1,81 @@
+﻿@model HeThongBanVeMayBay.Models.NHANVIEN
+@using HeThongBanVeMayBay.Models
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>THÊM MỚI NHÂN VIÊN</h2>
+@using (Html.BeginForm("Create", "Employee", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<table class="table-bordered">
+    <tr>
+        <td> @Html.LabelFor(model => model.UserName)</td>
+        <td> @Html.EditorFor(model => model.UserName)</td>
+    </tr>
+    <tr>
+        <td> @Html.LabelFor(model => model.Pass)</td>
+        <td> @Html.PasswordFor(model => model.Pass)</td>
+    </tr>
+    <tr>
+        <td> @Html.LabelFor(model => model.Email)</td>
+        <td> @Html.EditorFor(model => model.Email)</td>
+    </tr>
+    <tr>
+        <td> @Html.LabelFor(model => model.TenNV)</td>
+        <td> @Html.EditorFor(model => model.TenNV)</td>
+    </tr>
+    <tr>
+        <td> @Html.LabelFor(model => model.GioiTinh)</td>
+        <td>
+            @Html.DropDownListFor(m => m.GioiTinh,
+           new SelectList(Enum.GetValues(typeof(Gender))),
+           "Chọn giới tính", new { @class = "form-control" })
+        </td>
+    </tr>
+
+    <tr>
+        <td> @Html.LabelFor(model => model.NgaySinh)</td>
+        <td> @Html.EditorFor(model => model.NgaySinh)</td>
+    </tr>
+    <tr>
+        <td> @Html.LabelFor(model => model.NgayVaoLam)</td>
+        <td> @Html.EditorFor(model => model.NgayVaoLam)</td>
+    </tr>
+    <tr>
+        <td> @Html.LabelFor(model => model.NgayNghiLam)</td>
+        <td> @Html.EditorFor(model => model.NgayNghiLam)</td>
+    </tr>
+    <tr>
+        <td> @Html.LabelFor(model => model.ChucVu)</td>
+        <td>
+            @Html.DropDownListFor(model => model.ChucVu, (SelectList)ViewBag.listChucVu, new { @class = "form-control" })
+        </td>
+    </tr>
+    <tr>
+        <td> @Html.LabelFor(model => model.BoPhan)</td>
+        <td>
+            @Html.DropDownListFor(model => model.BoPhan, (SelectList)ViewBag.listPhongBan, new { @class = "form-control" })
+        </td>
+    </tr>
+    <tr>
+        <td> @Html.LabelFor(model => model.ImageEmp)</td>
+        <td> <img src="@Url.Content(Model.ImageEmp)" height="150" width="150" id="previewImg" /></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="file" name="UploadImage" onchange="ChangeImage(this, document.getElementById('previewImg'))" />
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" value="Tạo mới" />
+        </td>
+        <td></td>
+    </tr>
+</table>
+}
+
+

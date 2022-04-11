@@ -1,0 +1,100 @@
+﻿@*@model IEnumerable<HeThongBanVeMayBay.Models.NHANVIEN>*@
+@using HeThongBanVeMayBay.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<NHANVIEN>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html lang="en">
+<head>
+    <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+</head>
+<body @*onload="JavaScript:timedRefresh(60000);"*@>
+    <div>
+        @{ Html.RenderAction("GetAddNewLink");}
+        <a href="/Authentication/Logout">Logout</a>
+    </div>
+    <style>
+        .pagination {
+            display: flex;
+            padding-left: 45%;
+            padding-right: 45%;
+            list-style: none;
+            border-radius: .35rem;
+        }
+
+        .MenuPage li {
+            display: inline;
+        }
+    </style>
+    <h2>DANH SÁCH NHÂN VIÊN</h2>
+    <div class="container">
+        <div class="row">
+            @foreach (var emp in Model)
+            {
+                <div class="col-sm-2 col-sm-6 col-md-4 col-lg-4">
+                    <div class="card-pro">
+                        <table>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.ID)</td>
+                                <td class="space"> @Html.DisplayFor(model => emp.ID)</td>
+                            </tr>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.ImageEmp)</td>
+                                <td class="space"> <img src="@Url.Content(emp.ImageEmp)" height="100" width="100" /></td>
+                            </tr>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.TenNV)</td>
+                                <td class="space"> @Html.DisplayFor(model => emp.TenNV)</td>
+                            </tr>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.Email)</td>
+                                <td class="space"> @Html.DisplayFor(model => emp.Email)</td>
+                            </tr>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.GioiTinh)</td>
+                                <td class="space"> @Html.DisplayFor(model => emp.GioiTinh)</td>
+                            </tr>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.NgaySinh)</td>
+                                <td class="space"> @Html.DisplayFor(model => emp.NgaySinh)</td>
+                            </tr>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.NgayVaoLam)</td>
+                                <td class="space"> @Html.DisplayFor(model => emp.NgayVaoLam)</td>
+                            </tr>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.NgayNghiLam)</td>
+                                <td class="space"> @Html.DisplayFor(model => emp.NgayNghiLam)</td>
+                            </tr>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.ChucVu)</td>
+                                <td class="space"> @Html.DisplayFor(model => emp.ChucVu)</td>
+                            </tr>
+                            <tr>
+                                <td> @Html.LabelFor(model => emp.BoPhan)</td>
+                                <td class="space"> @Html.DisplayFor(model => emp.BoPhan)</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    @Html.ActionLink("Edit", "Edit", new { id = emp.ID }) |
+                                    @Html.ActionLink("Details", "Details", new { id = emp.ID }) |
+                                    @Html.ActionLink("Delete", "Delete", new { id = emp.ID })
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    Trang @(Model.PageCount<Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+    <div class="MenuPage">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+</body>
+</html>

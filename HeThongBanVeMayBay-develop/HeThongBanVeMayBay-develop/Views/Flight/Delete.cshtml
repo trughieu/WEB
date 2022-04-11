@@ -1,0 +1,105 @@
+﻿@model HeThongBanVeMayBay.Models.CHUYENBAY
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>CHUYENBAY</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IDChuyenBay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDChuyenBay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HANGBAY1.TenHangbay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HANGBAY1.TenHangbay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDSanBayDi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDSanBayDi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDSanBayDen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDSanBayDen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaTien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaTien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayBay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayBay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioBay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioBay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThoiGianToiDuKien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThoiGianToiDuKien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoGheHang1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoGheHang1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoGheHang2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoGheHang2)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
